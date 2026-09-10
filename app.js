@@ -323,7 +323,7 @@
             catch: "「考え方や生き方に直接触れたい」",
             description: "淳校長の価値観に共感する人。淳さんの発信・活動に以前から関心がある。",
             recommend: ["specialTalk", "onlineTour", "project", "onlineEvent"],
-            message: "最初から自分をさらけ出さなくても大丈夫。まずは魅力的なゲストや同級生の話を聴くところから、刺激を受け取ってみませんか？"
+            message: "淳校長の価値観に共感する人。淳さんの発信・活動に以前から関心がある。"
         },
         friendship: {
             key: "friendship",
@@ -331,7 +331,7 @@
             catch: "「肩書きを外して付き合える仲間がほしい」",
             description: "大人になって友達を増やしたい人。仕事・家庭以外の人間関係が少なくなっている。",
             recommend: ["homeroom", "chatBoard", "offlineEvent", "schoolTrip"],
-            message: "「大人になってからの友達作り」に身構える必要はありません。ゆるい雑談や共有の趣味を通して、気づけば心地よい関係が生まれています。"
+            message: "大人になって友達を増やしたい人。仕事・家庭以外の人間関係が少なくなっている。"
         },
         discovery: {
             key: "discovery",
@@ -339,7 +339,7 @@
             catch: "「知らない世界をもっと知りたい」",
             description: "好奇心旺盛な探究者。生活は安定しているが、新しい刺激や発見が減っている。",
             recommend: ["onlineTour", "specialTalk", "project", "officialClub"],
-            message: "知識の深さは関係ありません。気になった授業や見学にふらっと参加して、「知る楽しさ」を自分のペースで味わってみましょう。"
+            message: "好奇心旺盛な探究者。生活は安定しているが、新しい刺激や発見が減っている。"
         },
         youth: {
             key: "youth",
@@ -347,7 +347,7 @@
             catch: "「仲間と本気で何かをやりたい」",
             description: "もう一度夢中になりたい人。毎日は充実しているが、昔のような熱量や高揚感がない。",
             recommend: ["cultureFestival", "sportsDay", "schoolTrip", "championship"],
-            message: "恥ずかしがる必要はゼロ。大人になった今だからこそ、適度な距離感で安心して本気の「遊び」を楽しめますよ。"
+            message: "もう一度夢中になりたい人。毎日は充実しているが、昔のような熱量や高揚感がない。"
         },
         belonging: {
             key: "belonging",
@@ -355,7 +355,7 @@
             catch: "「何者でもない自分でいられる場所がほしい」",
             description: "仕事や家庭とは違う、自分の居場所がほしい人。特別な目的がなくても、気軽に立ち寄れて自分らしくいられる場所を求めている。",
             recommend: ["homeroom", "chatBoard", "onlineEvent", "officialClub"],
-            message: "無理に発言したり中心にならなくても大丈夫。まずは「見るだけ・聴くだけ」の参加から、のんびり居心地の良さを感じてくださいね。"
+            message: "仕事や家庭とは違う、自分の居場所がほしい人。特別な目的がなくても、気軽に立ち寄れて自分らしくいられる場所を求めている。"
         },
         contribution: {
             key: "contribution",
@@ -363,7 +363,7 @@
             catch: "「自分の経験で誰かの役に立ちたい」",
             description: "これまでの経験や得意を誰かのために活かしたい人。仕事で培った経験や人生経験を、会社とは違う場所でも役立てたい。",
             recommend: ["project", "cultureFestival", "officialClub", "championship"],
-            message: "特別な実績がなくても大丈夫。あなたがこれまで過ごしてきた時間の経験や「好き」を、小さな形でみんなに「おすそわけ」してみませんか？"
+            message: "これまでの経験や得意を誰かのために活かしたい人。仕事で培った経験や人生経験を、会社とは違う場所でも役立てたい。"
         }
     };
 
@@ -944,7 +944,7 @@
             '<p class="result-catch">' + escapeHTML(type.catch) + '</p>' +
 
             '<div class="result-card">' +
-            '<h2>あなたへのひとこと</h2>' +
+            '<h2>タイプの説明</h2>' +
             '<div class="result-message">' + escapeHTML(type.message) + '</div>' +
             '</div>' +
 
