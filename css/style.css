@@ -182,7 +182,9 @@ img {
 }
 
 .btn-primary {
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   border: none;
   cursor: pointer;
   background: var(--primary);
@@ -205,10 +207,14 @@ img {
   box-shadow: 0 2px 0 var(--primary-dark);
 }
 
+a .top-note {
+  -webkit-text-decoration: underline #999;
+          text-decoration: underline #999;
+}
+
 .top-note {
   font-size: 12px;
   color: #999;
-  text-decoration: underline #999;
 }
 
 /* ---------- QUIZ ---------- */
@@ -224,7 +230,9 @@ img {
 }
 
 .quiz-back {
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   background: var(--card);
   border: 1px solid var(--line);
   color: var(--sub);
@@ -616,7 +624,9 @@ img {
 }
 
 .recommend-item {
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   width: 100%;
   text-align: left;
   background: var(--primary-tint);
@@ -716,7 +726,9 @@ body.has-modal {
   top: 14px;
   right: 14px;
   z-index: 10;
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   background: rgba(0, 0, 0, 0.06);
   border: none;
   border-radius: 50%;
@@ -788,7 +800,8 @@ body.has-modal {
   width: 100%;
   height: auto;
   border-radius: var(--radius-sm);
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   box-shadow: var(--shadow-card);
   display: block;
   flex-shrink: 0;
@@ -803,7 +816,9 @@ body.has-modal {
   justify-content: center;
   gap: 8px;
   width: 100%;
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   text-decoration: none;
   background: var(--accent);
   color: #fff;
@@ -843,7 +858,9 @@ body.has-modal {
 }
 
 .share-btn {
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   width: 100%;
   border: none;
   cursor: pointer;
@@ -883,7 +900,9 @@ body.has-modal {
   justify-content: center;
   gap: 8px;
   width: 100%;
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   text-decoration: none;
   background: var(--accent);
   color: #fff;
@@ -907,7 +926,9 @@ body.has-modal {
 }
 
 .retry-btn {
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   background: none;
   border: none;
   cursor: pointer;
@@ -943,6 +964,4 @@ footer.foot {
     animation-duration: 0.001s !important;
     transition-duration: 0.001s !important;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

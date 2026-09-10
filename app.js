@@ -750,6 +750,7 @@
             '<p class="top-catch">10の質問でわかる、あなたにぴったりの<br>「大人の小学校」の楽しみ方。</p>' +
             '<div class="top-meta"><img src="' + buildAssetPath("img/main-visual.png") + '" alt="全10問 約2分 結果は6タイプ"></div>' +
             '<button class="btn-primary" id="btn-start" type="button">診断をはじめる</button>' +
+            '<p class="top-note">※よりよい診断づくりのため、回答と診断結果を匿名で集計しています。<br>個人を特定する情報は収集していません。</p>' +
             '<a href="https://www.tamusho.jp/"><p class="top-note">運営：田村淳の大人の小学校</p></a>' +
             '</section>';
 
