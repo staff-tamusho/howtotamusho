@@ -256,12 +256,12 @@
         },
         {
             id: "q5",
-            text: "最近、「ちょっと物足りないな」と感じるとしたら、一番近いのは？",
+            text: "今の生活の中で、「もう少しこうだったらいいのにな」と感じることで一番近いものは？",
             choices: [
-                { key: "A", label: "普段会わないような面白い人との出会い", scores: { inspiration: 3 } },
-                { key: "B", label: "気軽に話したり誘ったりできる友人", scores: { friendship: 3 } },
-                { key: "C", label: "新しいことを知ったり体験したりする時間", scores: { discovery: 3 } },
-                { key: "D", label: "仕事や家のことを忘れて楽しむ時間", scores: { youth: 3 } }
+                { key: "A", label: "普段会わないような面白い人と出会いたい", scores: { inspiration: 3 } },
+                { key: "B", label: "気軽に話したり誘ったりできる友人が欲しい", scores: { friendship: 3 } },
+                { key: "C", label: "新しいことを知ったり体験したりする時間が欲しい", scores: { discovery: 3 } },
+                { key: "D", label: "仕事や家のことを忘れて楽しむ時間が欲しい", scores: { youth: 3 } }
             ]
         },
         {
@@ -306,7 +306,7 @@
         },
         {
             id: "q10",
-            text: "1年後、「入ってよかった」と思うとしたら、一番うれしいのは？",
+            text: "「大人の小学校に入ってよかった」と思えるとしたら、どんなとき？",
             choices: [
                 { key: "A", label: "「この歳になって、新しい友人ができた」", scores: { friendship: 3 } },
                 { key: "B", label: "「知らなかった世界をたくさん知った」", scores: { discovery: 2, inspiration: 1 } },
