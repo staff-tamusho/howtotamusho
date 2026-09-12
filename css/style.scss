@@ -569,11 +569,13 @@ a .top-note {
 .radar-wrap {
     display: flex;
     justify-content: center;
+    overflow: visible;
 }
 
 .radar-svg {
     width: 100%;
     max-width: 300px;
+    overflow: visible;
 }
 
 .radar-data {

@@ -256,6 +256,17 @@
         },
         {
             id: "q5",
+            text: "「あのとき、もう一歩踏み出していたらよかったな」と思うことがある",
+            choices: [
+                { key: "A", label: "よくある", scores: { change: 3, inspiration: 1 } },
+                { key: "B", label: "ときどきある", scores: { change: 2 } },
+                { key: "C", label: "あまりない", scores: { change: 1 } },
+                { key: "D", label: "ほとんどない", scores: {} }
+            ]
+        },
+
+        {
+            id: "q6",
             text: "今の生活の中で、「もう少しこうだったらいいのにな」と感じることで一番近いものは？",
             choices: [
                 { key: "A", label: "普段会わないような面白い人と出会いたい", scores: { inspiration: 3 } },
@@ -265,7 +276,7 @@
             ]
         },
         {
-            id: "q6",
+            id: "q7",
             text: "もし週に数時間だけ「自分のための時間」が増えたら、何に使いたい？",
             choices: [
                 { key: "A", label: "今まで知らなかった世界を覗いてみたい", scores: { inspiration: 3, discovery: 1 } },
@@ -275,7 +286,7 @@
             ]
         },
         {
-            id: "q7",
+            id: "q8",
             text: "人が集まるコミュニティに入るとしたら、少し気になるのは？",
             choices: [
                 { key: "A", label: "すでに仲のいい人たちばかりだったら入りづらそう", scores: { belonging: 3, friendship: 1 } },
@@ -285,7 +296,7 @@
             ]
         },
         {
-            id: "q8",
+            id: "q9",
             text: "今の自分にひとつ増えたら、生活が少し楽しくなりそうなのは？",
             choices: [
                 { key: "A", label: "「こんな生き方もあるんだ」と思える人との出会い", scores: { inspiration: 3 } },
@@ -295,23 +306,13 @@
             ]
         },
         {
-            id: "q9",
+            id: "q10",
             text: "もし大人の小学校に入ったら、ちょっとやってみたいのは？",
             choices: [
                 { key: "A", label: "普段なら会えないような人の話を聞いたり話したりする", scores: { inspiration: 3 } },
                 { key: "B", label: "同世代の人と、放課後みたいに話したり遊んだりする", scores: { friendship: 2, belonging: 1 } },
                 { key: "C", label: "知らない場所へ行ったり、新しいことを学んだりする", scores: { discovery: 3 } },
                 { key: "D", label: "文化祭や旅行など、大人になってやらなくなったことをやる", scores: { youth: 3 } }
-            ]
-        },
-        {
-            id: "q10",
-            text: "「大人の小学校に入ってよかった」と思えるとしたら、どんなとき？",
-            choices: [
-                { key: "A", label: "「この歳になって、新しい友人ができた」", scores: { friendship: 3 } },
-                { key: "B", label: "「知らなかった世界をたくさん知った」", scores: { discovery: 2, inspiration: 1 } },
-                { key: "C", label: "「仕事でも家でもない、自分の居場所ができた」", scores: { belonging: 3 } },
-                { key: "D", label: "「自分の経験が誰かの役に立った」", scores: { contribution: 3 } }
             ]
         }
     ];
